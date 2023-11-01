@@ -1,0 +1,108 @@
+body {
+    background-color: rgb(73, 73, 73);
+    font-family: 'Source Code Pro', monospace;
+
+}
+.Заголовок{
+
+    font-size: 30px;
+    color:black;
+}
+.sidebar a img{
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+.block1 {
+    margin-left: 50px; /*отступ слева*/
+    margin-top: 50px; /*отступ сверху*/
+    width: 90%;
+    height: 100px;
+    background-color: aliceblue;
+    border-radius: 10px;
+    font-size: 35px;  
+}
+.block1 h1 {
+    text-align: center;
+
+}
+.block2 {
+    margin-left: 50px; /*отступ слева*/
+    margin-top: 50px; /*отступ сверху*/
+    width: 600px; /*высота*/
+    background-color: aliceblue;
+    border-radius: 10px;
+}
+.block2 a {
+    display: block;
+}
+.block3 {
+    width: 250px;
+    height: 250px;
+    background-color: aliceblue;
+    margin-left: 750px;
+    margin-top: -150px;
+    border-radius: 10px;
+    color: black;
+}
+.block3 a {
+    display: block;
+}
+.block3 img {
+    width: 100px;
+    height: 100px;
+}
+.block4 {
+    width: 150px;
+    height: 150px;
+    background-color: aliceblue;
+    margin-left: 1050px;
+    border-radius: 10px;
+    margin-top: -250px;
+}
+.block4 button {
+    margin-left: 15px;
+    margin-top: 15px;
+}
+.block5 {
+    width: 350px;
+    height: 40px;
+    background-color: aliceblue;
+    margin-left: 50px;
+    margin-top: 50px;
+    border-radius: 10px;
+}
+.block5 button {
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.block6 {
+    width: 150px;
+    height: 150px;
+    background-color: aliceblue;
+    border-radius: 10px;
+    display: none;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+.block6 button {
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.block7 {
+    width: 150px;
+    height: 150px;
+    background-color: aliceblue;
+    margin-left: 200px;
+    display: none;
+}
+
+.block8 {
+    width: 150px;
+    height: 150px;
+    background-color: aliceblue;
+    margin-left: 350px;
+    display: none;
+}

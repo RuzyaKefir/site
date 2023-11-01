@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <title>КРА</title> <!--Заголовок-->
+        <link rel="stylesheet" href="style.css"> <!--открывается стили-->
+        <link rel="preconnect" href="https://fonts.googleapis.com"><!--Линк шрифта-->
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><!--Линк шрифта-->
+        <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Ruslan+Display&family=Source+Code+Pro:wght@200&display=swap" rel="stylesheet"><!--Линк шрифта-->
+        <script src="index.js"></script>
+    </head>
+    <body> <!--тело страницы-->
+        <div class="Заголовок"> <!--открывается перед каждым элементом-->
+        <div class="block1">
+            <h1>Менеджер Альтехпром</h1></div>
+            <div class="block2">
+                <a class="link">Гений проеба</a>
+                <a>8k часов в Косынке</a>
+                <a>Мастер спорта по перекурам</a>
+                <a>Топ-1 по шуткам о китацах</a></div>
+        </div>
+        <div class="block3">
+            <a>1</a>
+            <a>1</a>
+            <a>1</a>
+            <a>1</a>
+            <a>1</a>
+        </div>
+        <div class="block4">
+            <button>123</button> <!--Кнопка-->
+            <button onclick="alert(`321`)">132 </button> <!--Кнопка для вывода уведомлений -->
+        </div>
+        </div>
+        <div class="block5">
+            <button class="display-button" onclick="toggleBlock('block6')">переход1</button>
+            <button class="display-button" onclick="toggleBlock('block7')">переход</button>
+            <button class="display-button" onclick="toggleBlock('block8 ')">переход</button>
+            <button>переход</button>
+        </div>
+        
+        <div id="block6" class="block6">
+            <button onclick="hideBlock('block6')">back</button>
+        </div>
+        
+        <div id="block7" class="block7">
+            <button onclick="hideBlock('block7')">back</button>
+        </div>
+        <div id="block8" class="block8">
+            <button onclick="hideBlock('block8')">back</button>
+        </div>
+    </body>
+</html>
