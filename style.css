@@ -77,32 +77,31 @@ body {
     margin-top: 10px;
 }
 
-.block6 {
+
+/* эта залупа для блоков 6 7 8 */
+.block6, .block7, .block8 {
     width: 150px;
-    height: 150px;
+    height: 0;
     background-color: aliceblue;
     border-radius: 10px;
-    display: none;
-    margin-left: 50px;
     margin-top: 10px;
+    transition: all 0.5s; /* это время которое будет длиться анимация перехода, можешь вертеть ее как на хую сколько угодно */
+    overflow: hidden; /* це надо что бы браузер намана обрабатывал элемент если он находиться за гранью страницы*/
+    opacity: 0; /* это короче прозрачность что бы сделать плавную красивую анимацию */
+    margin-left: 50px;
 }
-.block6 button {
+
+/* эта хуета ебаная для кнопОчек в блоках 6 7 8 */
+.block6 button, .block7 button, .block8 button {
     margin-left: 10px;
     margin-top: 10px;
 }
 
-.block7 {
-    width: 150px;
+/* эта поебень для уже открытых блоков */
+.block-open {
     height: 150px;
-    background-color: aliceblue;
-    margin-left: 200px;
-    display: none;
+    opacity: 1;
 }
 
-.block8 {
-    width: 150px;
-    height: 150px;
-    background-color: aliceblue;
-    margin-left: 350px;
-    display: none;
-}
+
+
